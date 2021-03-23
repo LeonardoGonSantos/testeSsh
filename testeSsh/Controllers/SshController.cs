@@ -28,7 +28,7 @@ namespace testeSsh.Controllers
         [HttpGet]
         public dynamic Get(string comand)
         {
-            SshClient cSSH = new SshClient("localhost", 22, "leonardo.goncalves@pacerwm.com", "Pacer2021#");
+            SshClient cSSH = new SshClient("localhost", 22, "leonardo.goncalves@pacerwm.com", "Password");
 
             cSSH.Connect();
 
